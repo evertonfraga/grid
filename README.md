@@ -51,26 +51,7 @@ In the the production mode a bundled app can be loaded from either `fs` or a rem
 
 # Release Process
 
-## Steps to release with CI
-
-- Bump version number
-- Push / merge to master
-- TODO set trigger for Electron releases (with auto-updater), grid-ui releases (without auto-updater)
-
-## Steps to test release (locally)
-
-- npm run prepare-release
-  - will download latest app release and package it with shell
-- npm run build
-- double check that release/unpacked/Grid.exe is working
-
-## Steps to release (locally)
-
-- get github access token and insert into .env as GH_TOKEN
-- TODO changelog, and release draft
-- TODO installer signing
-- npm run release -> auto publishes
-- go to github, check everything, edit description and change from draft to release
+See the developer guide [here](/docs/RELEASE.md).
 
 # Contributing
 
